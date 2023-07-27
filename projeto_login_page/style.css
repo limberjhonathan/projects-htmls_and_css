@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.card-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(0.20turn, #88e5ff, #66b8e3, #d634fa);
+}
+
+.text-login{
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+
+.card-log-page{
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em;
+    background-color: #fff;
+    border-radius: .8em;
+    width: 80%;
+}
+
+.log{
+    display: flex;
+    flex-direction: column;
+    font-size: .8em;
+}
+
+.log:nth-child(1){
+    margin-bottom: 1.5em;
+}
+
+.log input{
+    border: none;
+    outline: none;
+    /* border-bottom: 1px solid #ccc; */
+    padding: .4em 0;
+    font-size: 1.2em;
+    width: 100%;
+    transition: all .3s ease;
+}
+
+.input{
+    padding: .5em 0;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.log input:focus{
+    background-color: color-mix(in srgb, #474444, white 85%);
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.content_pass{
+    text-align: end;
+}
+
+.for_pass{
+    width: fit-content;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    font-size: .7em;
+    text-decoration: none;
+}
+
+.for_pass:hover{
+    text-decoration: underline;
+}
+
+
+.login{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    background: linear-gradient(to right, #6acedf, #dd42f6);
+    border-radius: 25px;
+    border: none;
+    margin-top: 2em;
+    padding: .8em 0;
+    transition: all .5s ease;
+}
+
+.login:hover{
+    outline: 1px solid black;
+    background: linear-gradient(to right, #33808d, #892199);
+}
+
+span{
+    text-align: center;
+    margin: 3em 0 2em;
+    font-size: .8em;
+}
+
+.social-network ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.social-network li{
+    display: inline-block;
+}
+
+.social-network .icon{
+    display: block;
+    color: white;
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    font-size: 1.2em;
+}
+
+.social-network i{
+    padding: .5em;
+}
+
+.social-network .facebook{
+    background-color: #1b60bb;
+}
+.social-network .instagram{
+    background-color: #e62384;
+}
+.social-network .twitter{
+    background-color: #309ce4;
+}
+
+
+.or_sing{
+    margin-bottom: .7em;
+}
+.sign_up{
+    text-transform: uppercase;
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none; 
+}
+
+
+@media screen and (min-width: 42em) {
+    .card-log-page{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 57em) {
+    .card-log-page{
+        width: 30%;
+    }
+}
